@@ -8,7 +8,7 @@ import 'react-bootstrap-buttons/dist/react-bootstrap-buttons.css';
 function App() {
 
   let [count, setCount] = useState(0);
-  let [isMorning, setMorning] = useState(true);
+  let [isMorning, setMorning] = useState(false);
 
   return (
       <div className={`box ${isMorning ? 'dayLight' : 'box'}`}>

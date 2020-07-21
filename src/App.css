@@ -1,7 +1,54 @@
 .box {
-  height: 600px;
-  background-color: lightgrey;
+  /*height: 600px;*/
+  background: url("./images/night.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 .dayLight {
-  background-color: yellow;
+  background: url("./images/morning.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /*background: #e9faff;*/
+}
+.wrap-login100 {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.login100-form-title {
+  display: block;
+  background: #e9faff;
+  /*font-family: OpenSans-Regular;*/
+  /*font-size: 30px;*/
+  /*color: #555555;*/
+  line-height: 1.2;
+  text-align: center;
+}
+.p-l-55 {padding-left: 55px;}
+.p-r-55 {padding-right: 55px;}
+.p-t-65 {padding-top: 65px;}
+.p-b-50 {padding-bottom: 50px;}
+.p-b-33 {padding-bottom: 33px;}
